@@ -1,0 +1,196 @@
+@font-face {
+	font-family: 'Museo Sans Cyrl 100';
+	src: url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'),
+		 url('../fonts/MuseoSansCyrl-100.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+}
+
+main{
+	background: #444 url(../img/main\ bg.png);
+	background-size: cover;
+	color: #fff;
+	position: absolute;
+	margin: auto;
+	max-width: 800px;
+	max-height: 600px;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.ba-section{
+	background: #152335;
+	width: 686px;
+	border-radius: 10px 10px 10px 10px;
+	position: absolute;
+	top: 109px;
+	left: 63px;
+	bottom: 100px;
+	box-shadow: 0 0 40px 0px #000, 0 10px 20px rgba(0,0,0,0.22);
+}
+
+.ba-section__logo{
+	position: absolute;
+	top: 24px;
+	left: 21px;
+}
+
+.ba-section__picture{
+	position: absolute;
+	top: 126px;
+	left: 36px;
+}
+
+
+.ba-section__content{
+width: 186px;
+position: absolute;
+right: 57px;
+top: 75px;	
+font-family: 'Museo Sans Cyrl 100';
+font-weight: 100;
+font-style: normal;
+color: #7d848d;
+}
+
+h1{
+	
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: normal;
+	display: block;
+	margin: 0;
+	color: #c3c4c6;
+	letter-spacing: 0.02em;
+
+}
+
+h2{	
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: normal;
+	display: block;
+	margin: 5px 0 19px;
+	letter-spacing: 0.015em;
+}
+
+.ba-section__rating{
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 1px;
+}
+
+.ba-section__rating--dim, .ba-section__rating--activ{
+	width: 12px;
+	height: 12px;
+	display: block;
+	
+}
+.ba-section__rating > div + div{
+	margin-left: 1.5px;
+}
+
+.ba-section__rating--bright{
+	width: 12px;
+	height: 12px;
+	display: none;
+	
+	
+}
+
+.ba-section__stars:hover img:nth-child(1){	
+	display: none;
+}
+
+.ba-section__stars:hover img:nth-child(2){
+	display: block;	
+}
+
+.ba-section__form{
+	display: block;
+	margin: 3px 0 0 1px;
+}
+
+select{
+	background: #152335;
+	color: #7e858e;
+	width: 69px;
+	height: 32px;
+	font-size: 14px;
+	border-color: #525c69;	
+	margin: 24px -3px 29px 2px;
+	font-family: 'Museo Sans Cyrl 100';
+   font-weight: 100;
+	font-style: normal;
+	outline-color: #c3c4c6;
+	text-align: center;
+	padding: 0 8px;	
+}
+
+.ba-section__button{
+	width: 183px;
+	background: #283443;
+	border: 1.5px solid #525c69;
+	text-decoration: none;
+	padding: 10px 0;
+	position: absolute;	
+	left: 2px;	
+	color: #c3c4c6;
+	text-align: center;
+	font-size: 14px;	
+	letter-spacing: 0.015em;
+	display: inline-block;	
+}
+
+.ba-section__button:hover{
+	background: #525c69;	
+}
+
+footer{
+	border: 0;
+}
+
+footer{
+	position: absolute;
+	bottom: 19px;
+	left: 166px;
+	background: #152335;	
+}
+
+.ba-change{
+	display: flex;
+	justify-content: center;
+}
+
+.ba-change__photo{	 
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	margin: 4px 0 4px 9px;	
+}
+
+.ba-change__photo--a{
+	background: #525c69;
+}
+
+.ba-change__photo--b{
+	background: #ffffff;
+}
+
+.ba-change__photo--c{
+	background: #f34b42;
+}
+
+.ba-change__photo--d{
+	background: #25e7ee;
+}
+
+.ba-change__photo:hover{
+	width: 13px;
+	height: 13px;
+	border: 2px solid #808892;
+	background: #293550;
+	margin: 0 0 0 8px;	
+}
